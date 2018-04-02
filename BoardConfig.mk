@@ -35,6 +35,3 @@ TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
 # inherit from the proprietary version
 -include vendor/xiaomi/natrium/BoardConfigVendor.mk
-
-# Added for Ubuntu porting
-BOARD_USE_LOCAL_INITRD = y
